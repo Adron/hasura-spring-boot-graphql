@@ -6,6 +6,13 @@ A repository for use with the [hasura-quick-start](https://github.com/Adron/hasu
 
 NOTE: This is done after you've cloned the [hasura-quick-start repository](https://github.com/Adron/hasura-quick-start) and launched that environment once. Follow these steps to add this GraphQL API and deploy it alongside the Hasura GraphQL API.
 
+Run the following commands (also in the build.sh script but included here for Windows users)
+
+1. Execute `./gradlew build` to get the jar file build. It will then be located in the build/libs directory.
+2. Execute `docker build -t adron/hasura-spring-boot-graphql .` to build the docker image locally.
+3. To use the image and start a container with the app, run `docker run -p 8080:8080 adron/hasura-spring-boot-graphql`.
+
+
 ### Reference Material
 
 Dockerfile documentation for Spring Boot: https://spring.io/guides/topicals/spring-boot-docker/
