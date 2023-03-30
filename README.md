@@ -27,3 +27,6 @@ Using the answer here, to turn off the buildkit resolved this issue.
 
 https://stackoverflow.com/questions/73812700/docker-error-internal-load-metadata-for-docker-io
 
+An issue also exists for a Spring API running on localhost.
+
+Referrer-Policy > https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
