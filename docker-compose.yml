@@ -1,0 +1,7 @@
+version: '3.6'
+services:
+  spring-graphql:
+    image: adron/hasura-spring-boot-graphql
+    ports:
+      - "8081:8080"
+    restart: always
